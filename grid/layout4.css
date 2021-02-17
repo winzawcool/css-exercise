@@ -26,6 +26,15 @@ body {
   height: 100vh;
   gap: 24px;
 
+  grid-template-areas:
+    "header"
+    "nav"
+    "main"
+    "sidebar"
+    "ads"
+    "footer"
+  ;
+
   grid-template-rows: auto auto 1fr auto auto auto;
 }
 .layout-4 .header {
