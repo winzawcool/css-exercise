@@ -1,0 +1,17 @@
+.flex-container {
+  background:lightsteelblue;
+  margin-bottom: 10px;
+  width: 400px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.flex-item {
+  box-sizing: border-box;
+  border: 1px solid midnightblue;
+  padding: 10px;
+  /* grow shrink basic */
+  /* flex: 1 1 100px; */
+  /* flex: 0 1 100px; */
+  /* flex: 0 0 100px; */
+  flex: 1 0 100px;
+}
